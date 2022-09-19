@@ -21,3 +21,12 @@ https://fontforge.org/docs/scripting/python/fontforge.html
 1. Adjust the global parameters in the first section of `build_simple_black_font_with_fontforge.py`
 2. type `fontforge -script build_simple_black_font_with_fontforge.py` in the terminal.
 
+By default, the script reads files from the `svg` folder. Several example files have been included therein.
+
+
+
+
+## Limitations
+
+- Fonts are monochrome only. Building color fonts requires a more advanced tool like [nanoemoji](https://github.com/googlefonts/nanoemoji)
+- Source svgs need to all have the same size viewbox for best results. (Fontforge can be set up to autoscale imported outlines, but that was giving me strange results, and so this script does not take advantage of that functionality.)
