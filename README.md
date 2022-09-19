@@ -30,3 +30,5 @@ By default, the script reads files from the `svg` folder. Several example files 
 
 - Fonts are monochrome only. Building color fonts requires a more advanced tool like [nanoemoji](https://github.com/googlefonts/nanoemoji)
 - Source svgs need to all have the same size viewbox for best results. (Fontforge can be set up to autoscale imported outlines, but that was giving me strange results, and so this script does not take advantage of that functionality.)
+- One of the svg files must be specified as the placeholder geometry, which is to be used when ligatures contain a codepoint without an associated file.
+- Sometimes the outlines combine in unintended ways when overlapping. It may be helpful to combine objects in the svg before building the font.
