@@ -14,6 +14,13 @@ If there are codepoints which are part of a sequence but lack their own SVG, the
 
 See here for documentation about FontForge's scripting library:
 https://fontforge.org/docs/scripting/python/fontforge.html
+
+---
+
+(c) 2022 Robert Winslow. Originally posted at https://github.com/RobertWinslow/Simple-SVG-to-Font-with-Fontforge
+Feel free to use this little script however you like. I claim no ownership over any fonts you create with it.
+All I ask is that you provide attribution by preserving this copyright notice in this script and its derivatives.
+(If you need something formal, this script is released under a CC BY-SA 4.0 license.)
 '''
 
 
