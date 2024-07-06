@@ -32,3 +32,15 @@ By default, the script reads files from the `svg` folder. Several example files 
 - Source svgs need to all have the same size viewbox for best results. (Fontforge can be set up to autoscale imported outlines, but that was giving me strange results, and so this script does not take advantage of that functionality.)
 - One of the svg files must be specified as the placeholder geometry, which is to be used when ligatures contain a codepoint without an associated file.
 - Sometimes the outlines combine in unintended ways when overlapping. It may be helpful to combine objects in the svg before building the font.
+
+
+
+## License
+
+The script itself is released under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. 
+If you redistribute the script or a derivative, please provide attribution.
+
+I claim no ownership over any fonts you create with this, nor do I require attribution if you don't redistribute the script itself.
+That said, if you use this, I would like to see what you make! You can [leave a comment here](https://github.com/RobertWinslow/Simple-SVG-to-Font-with-Fontforge/issues/2) showing off your work.
+
+
